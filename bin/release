@@ -12,5 +12,5 @@ cat <<EOF
 addons:
   - mongolab
 default_process_types:
-  web: $DIR/heroku_build/bin/node $DIR/heroku_build/app/main.js
+  web: /app/.meteor/heroku_build/bin/node /app/.meteor/heroku_build/app/main.js
 EOF
